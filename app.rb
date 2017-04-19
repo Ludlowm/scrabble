@@ -4,7 +4,7 @@ require('sinatra')
 require('sinatra/reloader')
 require("./lib/scrabble")
 
-get('/form') do
+get('/') do
   erb(:form)
 end
 
